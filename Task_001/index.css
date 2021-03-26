@@ -1,0 +1,33 @@
+
+#root {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+select {
+    outline: none;
+    border: 1px solid #29219f;
+    border-radius: 10px;
+    padding-left: 15px;
+    width: 150px;
+    height: 35px;
+}
+
+form {
+    margin: 20px 0;
+    max-width: 260px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-text {
+    width: 150px;
+    border: 1px solid #29219f;
+    border-radius: 10px;
+}
+
+.input-text::placeholder {
+    font-size: 10px;
+    outline: none;
+    padding: 10px;
+}
